@@ -9,35 +9,24 @@
 
 ## ⚙️ 凭证配置
 
-Demo 程序通过读取**环境变量**来获取启动凭证。您可以在启动前通过命令行设置，或者在 IDE 中配置运行环境变量。
+Demo 程序引入了 `DotNetEnv`，支持直接从项目目录中的 `.env` 文件加载环境变量。
 
-必须配置的环境变量：
-- `APP_KEY`: 您在畅捷通开放平台创建的应用 Key。
-- `APP_SECRET`: 您在畅捷通开放平台获取的应用 Secret（通常为32位字符）。
+1. 在当前 `Chanjet.Connector.Demo` 目录下，复制 `.env.example` 并重命名为 `.env`。
+2. 编辑 `.env` 文件，填入您的真实凭证：
 
-可选配置：
-- `GATEWAY_URL`: 测试环境网关地址。若不配置，SDK 将默认连接到**生产环境**。
+```env
+APP_KEY=your_app_key
+APP_SECRET=your_app_secret_32_chars
+# GATEWAY_URL=wss://open.chanjet.com/gateway # 可选
+```
 
 ## 🚀 启动方式
 
 ### 方式 1：通过命令行运行 (推荐)
 
-打开终端，进入本 `Chanjet.Connector.Demo` 目录，然后执行以下命令：
+打开终端，进入本 `Chanjet.Connector.Demo` 目录，确保 `.env` 文件已配置好，然后执行：
 
-**在 macOS / Linux 下:**
 ```bash
-export APP_KEY="your_app_key"
-export APP_SECRET="your_app_secret_32_chars"
-# export GATEWAY_URL="wss://open.chanjet.com/gateway" # 可选
-
-dotnet run
-```
-
-**在 Windows (PowerShell) 下:**
-```powershell
-$env:APP_KEY="your_app_key"
-$env:APP_SECRET="your_app_secret_32_chars"
-
 dotnet run
 ```
 

@@ -13,6 +13,9 @@ namespace Chanjet.Connector.Demo
         {
             Console.WriteLine("Starting .NET SDK Demo...");
 
+            // Load .env file
+            DotNetEnv.Env.TraversePath().Load();
+
             // In a real application, you would read these from a config file (e.g. appsettings.json) or environment variables.
             string appKey = Environment.GetEnvironmentVariable("APP_KEY") ?? "your_app_key";
             string appSecret = Environment.GetEnvironmentVariable("APP_SECRET") ?? "your_app_secret";
