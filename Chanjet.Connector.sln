@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chanjet.Connector.Sdk", "Chanjet.Connector.Sdk\Chanjet.Connector.Sdk.csproj", "{3C4615E4-436C-4A2D-A4EC-ECAAA73C185A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chanjet.Connector.Demo", "Chanjet.Connector.Demo\Chanjet.Connector.Demo.csproj", "{4019C83B-B03C-438D-9E95-46D91444FF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C4615E4-436C-4A2D-A4EC-ECAAA73C185A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4615E4-436C-4A2D-A4EC-ECAAA73C185A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4615E4-436C-4A2D-A4EC-ECAAA73C185A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4615E4-436C-4A2D-A4EC-ECAAA73C185A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4019C83B-B03C-438D-9E95-46D91444FF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4019C83B-B03C-438D-9E95-46D91444FF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4019C83B-B03C-438D-9E95-46D91444FF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4019C83B-B03C-438D-9E95-46D91444FF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
