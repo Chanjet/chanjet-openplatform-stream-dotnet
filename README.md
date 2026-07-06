@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-6.0%20%7C%208.0%20%7C%20Standard%202.0-blue)](https://dotnet.microsoft.com/)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Chanjet.chanjet-openplatform-stream-dotnet)
 
 > ⚠️ **免责声明 (Disclaimer)**：当前 .NET SDK 核心代码由 AI 生成，由于执行环境限制，**未经本地编译与运行测试**。代码结构与逻辑仅供参考，在用于生产环境之前，请务必进行自行编译与严格验证。
 
